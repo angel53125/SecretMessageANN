@@ -13,8 +13,8 @@
        tools:layout = "@layout/fragment_welcome">
 
        <action
-           app:id="@id/action_welcomeFragment_to_messageFragment"
-           android:destination="@id/messageFragment"
+           android:id="@+id/action_welcomeFragment_to_messageFragment"
+           app:destination="@id/messageFragment"
            />
 </fragment>
 
